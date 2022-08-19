@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Claudia Villa - Yo Programo 2da edición</title>
+    <link rel="icon" type="image/png" href="assets/favicon.png"/>
+    <!-- <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" /> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />	 -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900' rel='stylesheet' type='text/css'>
+    <!-- <link href="/fontawesome/css/fontawesome.css" rel="stylesheet"> -->
+    <script src="fontawesome/js/all.js"></script>
+    <!-- <link href="/fontawesome/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="/fontawesome/css/solid.css"> -->
+</head>
+<nav class="navbar">
+    <a href="https://www.argentina.gob.ar/produccion/argentina-programa/segunda-etapa" target="_blank" >
+        <img src="assets/images/logoarg.png" alt="" class="img-class"  >
+    </a>
+</nav>
+<header>
+      <div class="header">
+          <div class="container">
+              <!-- <div class="estilo-boton-ingreso"> -->
+                <button type="button" class="estilo-boton-ingreso" >Ingresar</button>
+                
+              <!-- </div> -->
+              <div class="logo">
+                  <span class="logo-inicial"></span>
+                  <h1>Claudia Villa</h1>
+                  <p>Mi<span>Portfolio</span></p>
+                  <div style="margin-left: 850px;">
+                      <span style="font-size: 38px;">
+                          <a href="https://www.facebook.com/Rulitoscv/" target="_blank" style="padding: 10px;"> <fa-icon [icon]="['fab', 'facebook']"
+                            [styles]="{ stroke: 'lightpink', color: 'lightpink' }"
+                            size="1x" ></fa-icon></a>
+                      </span>
+                      <span style="font-size: 38px;margin-left: 10px;">
+                          <a href="https://www.instagram.com/clau.bg/" target="_blank" style="padding: 10px;"><fa-icon [icon]="['fab', 'instagram']"
+                            [styles]="{ stroke: 'lightpink', color: 'lightpink' }"
+                            size="1x" ></fa-icon></a>
+                      </span>
+                      <span style="font-size: 38px;margin-left: 10px;">
+                          <a href="https://www.linkedin.com/in/claudia-villa-07978232/" target="_blank" style="padding: 10px;"> <fa-icon [icon]="['fab', 'linkedin']"
+                            [styles]="{ stroke: 'lightpink', color: 'lightpink' }"
+                            size="1x" ></fa-icon></a>
+                      </span>
+                      <span style="font-size: 38px;margin-left: 10px;">
+                          <a href="https://twitter.com/claubg24" target="_blank" style="padding: 10px;"><fa-icon [icon]="['fab', 'twitter']"
+                            [styles]="{ stroke: 'lightpink', color: 'lightpink' }"
+                            size="1x" ></fa-icon></a>
+                      </span>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </header>
+  <div class="header-bottom">
+		<div class="container">
+      <div class="logo">
+        <span class="logo-inicial2"></span>
+      </div>
+    </div> 
+  </div>
+  <div class="header-bottom">
+    <div class="container">
+      <div class="top-nav">
+        <span class="menu"> </span>
+        <ul>
+            <!-- <li ><a href="#" class="scroll">Home</a></li> -->
+            <li><a href="#about" class="scroll">Personal</a> </li>
+            <li><a href="#work" class="scroll">Experiencia</a></li>
+            <li><a href="#study" class="scroll">Educaci&oacute;n</a></li>
+            <li><a href="#skill" class="scroll">Habilidades</a></li>
+            <li><a href="#portfolio" class="scroll">Trabajos</a></li>
+            <!-- <li><a href="#contact" class="scroll">Contacto</a></li> -->
+        </ul>
+      </div>
+      <div class="clearfix"> </div>
+    </div>
+    <div class="nombre-inicio">
+      <p>Claudia Alejandra Villa</p>
+    </div>
+    <div class="fullstack">
+      <p>Full Stack Developer Jr.</p>
+    </div>
+  </div>
+  <body>
+    <!-- <div id="id01" class="modal">
+      <form class="modal-content animate" action="" method = "post">
+        <div class="imgcontainer">
+          <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+          <img src="../assets/images/arg3.png" alt="Avatar" class="avatar">
+        </div>
+        <div class="container">
+          <label><b>Usuario</b></label>
+          <input type="text" placeholder="Nombre de Usuario" name="usuario" required>
+          <label><b>Contraseña</b></label>
+          <input type="password" placeholder="Ingrese su contraseña" name="clave" required>
+          <button type="submit">Ingresar</button>
+        </div>
+      </form>
+    </div>
+    <script>
+        var modal = document.getElementById('id01');
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script> -->
+    <div class="content">
+      <!-- Datos personales -->
+      <div class="container">
+        <div class="about-us" id="about">		
+          <div class="about">
+            <h3>Información <span>Personal</span></h3>
+              <span style="font-size: 38px;">
+                <fa-icon [icon]="['fas', 'user-pen']"
+                  [styles]="{ stroke: 'lightpink', color: 'black' }" 
+                  size="1x" >
+                </fa-icon>
+              </span>
+              <ul>
+                <li>
+                  <h6 class="h6a">Claudia Villa</h6>
+                </li><hr>
+                <li>
+                  <h6 class="h6b">38 años</h6>
+                </li><hr>
+                <li>
+                  <h6 class="h6a">SMT</h6>
+                </li><hr>
+                <li>
+                  <h6 class="h6b">los nogales</h6>
+                </li><hr>
+                <li>
+                  <h6 class="h6a">+54 9 381 3300136</h6>
+                </li><hr>
+                <li>
+                    <h6 class="h6b">claudiaavilla@gmail.com</h6>
+                </li>
+              </ul>
+            </div>
+            <div class="about">
+              <h4>Cualidades <span>Personales</span></h4>
+            </div>
+            <div class="about-grid row">
+              <div class="col-md-4 grid-about">
+                <a href="#"><img src="assets/images/in.png" alt="" /></a>
+                <h4>Eficiencia</h4>
+              </div>
+              <div class="col-md-4 grid-about">
+                <a href="#"><img src="assets/images/co.png" alt="" /></a>
+                <h4 class="design">Inteligencia</h4>
+              </div>
+              <div class="col-md-4 grid-about">
+                <a href="#"><img src="assets/images/pe.png" alt="" /></a>
+                <h4 class="set">Dedicaci&oacute;n</h4>
+              </div>
+              <div class="clearfix"> </div>				
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- experiencia laboral  -->
+      <div class="work" id="work">
+        <h3>Experiencia <span>Laboral</span></h3>
+      </div><br>
+      <div class="card-columns" style="margin: 10px;">
+        <div class="card">
+          <div class="card-body">
+            <span style="font-size: 38px;">
+              <fa-icon [icon]="['fas', 'square-pen']"
+                  [styles]="{ stroke: 'lightpink', color: '#775CC7' }" 
+                  size="1x" >
+                </fa-icon>
+            </span>
+            <h5 class="card-title">Grifo Creativo</h5>
+            <p class="card-text">Soporte sistema Vtiger personalizado para empresas</p>
+            <p class="card-text"><small class="text-muted">Septiembre 2021 - Actualidad</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <span style="font-size: 38px;">
+              <fa-icon [icon]="['fas', 'square-pen']"
+                  [styles]="{ stroke: 'lightpink', color: '#775CC7' }" 
+                  size="1x" >
+                </fa-icon>
+            </span>
+            <h5 class="card-title">Sanatorio 9 de Julio</h5>
+            <p class="card-text">Gerencia Administrativa - Contable - Gestiones relacionadas a cobranzas de deudores y gesti&oacute;n de pacientes</p>
+            <p class="card-text"><small class="text-muted">Abril 2013 - Mayo 2021</small></p>
+          </div>
+        </div>
+        <div class="card p-3">
+          <span style="font-size: 38px;">
+            <fa-icon [icon]="['fas', 'square-pen']"
+                  [styles]="{ stroke: 'lightpink', color: '#775CC7' }" 
+                  size="1x" >
+                </fa-icon>
+          </span>
+          <h5 class="card-title">Teleperformance - Supervisor</h5>
+          <p class="card-text">Soporte mesa de ayuda ARNET</p>
+          <p class="card-text"><small class="text-muted">Marzo 2010 - Diciembre 2012</small></p>
+        </div>
+        <div class="card text-center p-3">
+          <span style="font-size: 38px;">
+            <fa-icon [icon]="['fas', 'square-pen']"
+                  [styles]="{ stroke: 'lightpink', color: '#775CC7' }" 
+                  size="1x" >
+                </fa-icon>
+          </span>
+          <h5 class="card-title">Innovaciones Tecnol&oacute;gicas</h5>
+          <p class="card-text">Administración y control de Tarjetas Telefónicas; Recepción y Atención de Clientes, confección y control de cuentas corrientes, liquidaciones de sueldos; Administración, recaudación y control de
+                Telecabinas y Telecentros</p>
+          <p class="card-text"><small class="text-muted">Enero 2001 - Enero 2009</small></p>
+        </div>
+        <div class="card bg-primary text-white text-center p-3">
+          <blockquote class="blockquote mb-0">
+            <p>"El &eacute;xito no se logra solo con cualidades especiales, es sobre todo un trabajo de constancia, de m&eacute;todo y de organizacion"</p>
+            <footer class="blockquote-footer">
+              <small>
+              </small>
+            </footer>
+          </blockquote>
+        </div>
+        <div class="card text-center">
+          <div class="card-body">
+            <span style="font-size: 38px;">
+              <fa-icon [icon]="['fas', 'square-pen']"
+                  [styles]="{ stroke: 'lightpink', color: '#775CC7' }" 
+                  size="1x" >
+                </fa-icon>
+            </span>
+            <h5 class="card-title">Teleperformance - Asesor</h5>
+            <p class="card-text">Atencion telef&oacute;nica MDA</p>
+            <p class="card-text"><small class="text-muted">Agosto 2009 - Marzo 2010</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img" src="assets/images/work.png" alt="Card image">
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <span style="font-size: 38px;">
+              <fa-icon [icon]="['fas', 'square-pen']"
+                  [styles]="{ stroke: 'lightpink', color: '#775CC7' }" 
+                  size="1x" >
+                </fa-icon>
+            </span>
+            <h5 class="card-title">Bar/Drugstore La Nueva Barra</h5>
+            <p class="card-text">Administración, Control y pago de sueldo de empleados, control de stock, control dinero, pago proveedores, contrataci&oacute;n de personal, recepci&oacute;n de mercader&iacute;a </p>
+            <p class="card-text"><small class="text-muted">Enero 2003 - Agosto 2007</small></p>
+          </div>
+        </div>
+      </div>
+      <br><br>
+      	<!--- Educación / Cursos --->
+	    <div class="experience">
+		    <div class="container">
+			    <div class="exp-top">
+				    <div class="about" id="study">
+					    <h3>Educaci&oacute;n /<span> Cursos</span></h3>
+            </div>
+				    <span class="line"></span>
+			    </div>
+			    <div class="exp-devide">
+				    <h4>Cursos</h4>
+				      <span class="devide-line"></span>
+				      <label class="bag"></label>
+				      <div class="exp-devide-grid-right">
+					      <h5>FULL STACK</h5>
+					      <small>Rolling Code 2019-2020</small>
+					      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+				      </div>
+				      <div class="exp-devide-grid-left">
+					      <h5>HTML / CSS</h5>
+					      <small>UDEMY (online) 2020</small>
+					      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+				      </div>
+				      <div class="exp-devide-grid-rightb">
+					      <h5>PHP/JAVASCRIPT</h5>
+					      <small>UDEMY (online) 2020-2021</small>
+					      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+				      </div>
+            </div>
+            <div class="exp-devide education">
+              <h4>Educaci&oacute;n</h4>
+              <span class="devide-line"></span>
+              <label class="book"></label>
+              <div class="exp-devide-grid-right">
+                <h5>LIC. PROGRAMACI&Oacute;N</h5>
+                <small>Universidad Nacional de Tucum&aacute;n</small><br>
+                <small>2018 - 2021</small>
+                <p>Cursado Incompleto</p>
+              </div>
+              <div class="exp-devide-grid-left">
+                <h5>ADMINISTRACION DE EMPRESAS</h5>
+                <small>Universidad Santo Tomas de Aquino </small><br>
+                <small>2005 - 2007</small>
+                <p>Cursado Incompleto </p>
+              </div>
+              <div class="exp-devide-grid-rightb">
+                <h5>PRIMARIA/SECUNDARIA</h5>
+                <small>Sagrado Coraz&oacute;n de Jes&uacute;s de las Hermanas Esclavas</small><br>
+                <small>1990 - 2001</small>
+                <p>Titulo: Bachillerato en Orientaci&oacute;n Docente</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br><br><br>
+        <!--- Skills Starts Here --->
+      <div class="about"  id="skill">
+        <h3><span>Habilidades</span></h3>
+      </div><br>
+      <div class="content" >
+        <div class="container">
+          <div class="about">
+            <h3>Idioma <span>Ingl&eacute;s</span></h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12" >
+        <div class="mb-4">
+            <progressbar [max]="100" [value]="60" 
+                [animate]="true" 
+                [striped]="true" style="margin:0 120px;width: 80%;height:50px"> 60 %
+            </progressbar>
+        </div>
+    </div>
+      <div class="skills">
+        <div class="container">
+          <div class="skills-top">
+            <div class="about">
+              <h3> <span>Skills</span></h3>
+          </div>
+          <span class="line"></span>
+          <div class="row skill-grids text-center">
+            <div class="col-md-3 skill-column">	
+                <div class="skill-grid">
+                  <div class="circle" id="circles-1">
+                    <circle-progress
+                    [percent]="25"
+                    [radius]="70"
+                    [outerStrokeWidth]="16"
+                    [innerStrokeWidth]="8"
+                    [outerStrokeColor]="'#6A70AB'"
+                    [innerStrokeColor]="'#D54B54'"
+                    [animation]="true"
+                    [animationDuration]="300"
+                  ></circle-progress>
+                  </div>									
+                    <h3>REACT</h3>	
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                  </div>								  
+                </div>
+              <div class="col-md-3 skill-column">	
+                <div class="skill-grid">
+                  <div class="circle" id="circles-2">
+                    <circle-progress
+                    [percent]="45"
+                    [radius]="70"
+                    [outerStrokeWidth]="16"
+                    [innerStrokeWidth]="8"
+                    [outerStrokeColor]="'#6A70AB'"
+                    [innerStrokeColor]="'#D54B54'"
+                    [animation]="true"
+                    [animationDuration]="300"
+                  ></circle-progress>
+                  </div>									
+                  <h3>LARAVEL</h3>	
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>								  
+              </div>
+              <div class="col-md-3 skill-column">	
+                <div class="skill-grid">
+                  <div class="circle" id="circles-3">
+                    <circle-progress
+                    [percent]="58"
+                    [radius]="70"
+                    [outerStrokeWidth]="16"
+                    [innerStrokeWidth]="8"
+                    [outerStrokeColor]="'#6A70AB'"
+                    [innerStrokeColor]="'#D54B54'"
+                    [animation]="true"
+                    [animationDuration]="300"
+                  ></circle-progress>
+                  </div>									
+                  <h3>PHP</h3>	
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>								  
+              </div>
+              <div class="col-md-3 skill-column">	
+                <div class="skill-grid">
+                  <div class="circle" id="circles-4">
+                    <circle-progress
+                    [percent]="82"
+                    [radius]="70"
+                    [outerStrokeWidth]="16"
+                    [innerStrokeWidth]="8"
+                    [outerStrokeColor]="'#6A70AB'"
+                    [innerStrokeColor]="'#D54B54'"
+                    [animation]="true"
+                    [animationDuration]="300"
+                  ></circle-progress>
+                  </div>									
+                  <h3>HTML/CSS</h3>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>	
+                </div>								  
+              </div>
+              <div class="clearfix"> </div>
+            </div>
+          </div>
+        </div>
+      <!--- Skill Script --->
+    </div>
+<!--- Skills Ends Here --->	
+<!-- Trabajos realizados -->
+<div class="container">
+  <div class="portfolio" id="portfolio">
+    <div class="portfolio-top">
+      <h3>Algunos de <span>mis trabajos</span></h3>
+    </div>
+    <div class="container">
+      <div id="ca-container" class="ca-container">
+        <div class="ca-wrapper">
+          <div class="ca-item ca-item-1">
+            <div class="ca-item-main">
+              <div class="row">
+                <div class="col-sm">
+                  <div class="ca-icon"> 
+                    <div class="sear-ic">
+                      <ul class="circle">
+                        <li></li>
+                        <a href="https://www.juansgarbiehijo.com.ar" target="_blank">
+                          <h6>J SGARBI E HIJO<span> </span>
+                            <fa-icon [icon]="['fas', 'link']"
+                              [styles]="{ stroke: 'lightpink', color: 'black' }"
+                              size="1x" ></fa-icon>
+                          </h6>
+                        </a>
+                        <br><br><br>
+                        <p>Jul/Sept 2021 - Trabajo en Bootstrap, PHP JS y Laravel</p>
+                        <p>Actualmente me encuentro dando soporte a esta web y agregando actualizaciones</p>
+                    
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm">
+                  <div class="ca-icon1">
+                    <div class="sear-ic">
+                      <ul class="circle">
+                        <li></li>
+                        <a href="http://grifocreativo.com/" target="_blank">
+                          <h6>GRIFO CREATIVO<span> </span>
+                            <fa-icon [icon]="['fas', 'link']"
+                              [styles]="{ stroke: 'lightpink', color: 'black' }"
+                              size="1x" ></fa-icon>
+                          </h6>
+                        </a>
+                        <br><br><br>
+                        <p>Feb 2022 - Trabajo en Bootstrap y php para env&iacute;o de mail</p>
+                        <p>&Uacute;ltima modificaci&oacute;n realizada con inclusi&oacute;n de nuevo idioma</p>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm">
+                  <div class="ca-icon2">
+                    <div class="sear-ic">
+                      <ul class="circle">
+                        <li></li>
+                        <a href="https://www.jahro.com.ar/" target="_blank">
+                          <h6>JAHRO<span> </span>
+                            <fa-icon [icon]="['fas', 'link']"
+                              [styles]="{ stroke: 'lightpink', color: 'black' }"
+                              size="1x" ></fa-icon>
+                          </h6>
+                        </a>
+                        <br><br><br>
+                        <p>Jun 2020 - Trabajo realizado mediante plantilla Bootstrap</p>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>  
+  </div>
+</div>
+<div class="footer">
+  <div class="container">
+    <div style="margin-left: 850px;">
+      <span style="font-size: 20px;">
+        <a href="https://www.facebook.com/Rulitoscv/" target="_blank"><fa-icon [icon]="['fab', 'facebook']"
+          [styles]="{ stroke: 'lightpink', color: 'lightpink' }"
+          size="1x" ></fa-icon></a>
+      </span>
+      <span style="font-size: 20px;margin-left: 10px;">
+          <a href="https://www.instagram.com/clau.bg/" target="_blank"><fa-icon [icon]="['fab', 'instagram']"
+            [styles]="{ stroke: 'lightpink', color: 'lightpink' }"
+            size="1x" ></fa-icon></a>
+      </span>
+      <span style="font-size: 20px;margin-left: 10px;">
+          <a href="https://www.linkedin.com/in/claudia-villa-07978232/" target="_blank"><fa-icon [icon]="['fab', 'linkedin']"
+            [styles]="{ stroke: 'lightpink', color: 'lightpink' }"
+            size="1x" ></fa-icon></a>
+      </span>
+      <span style="font-size: 20px;margin-left: 10px;">
+          <a href="https://twitter.com/claubg24" target="_blank"><fa-icon [icon]="['fab', 'twitter']"
+            [styles]="{ stroke: 'lightpink', color: 'lightpink' }"
+            size="1x" ></fa-icon></a>
+      </span>
+    </div>
+    <p class="footer-class"><fa-icon [icon]="['far', 'sun']"></fa-icon> 2022 Argentina Programa - <a href="https://argentinaprograma.inti.gob.ar/" target="_blank"> argentinaprograma.inti.gob.ar</a> </p>
+    <div class="clearfix"> </div>
+  </div>
+</div>
+
+<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+</body>
+</html>
