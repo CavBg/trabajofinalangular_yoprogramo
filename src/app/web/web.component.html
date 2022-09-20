@@ -24,8 +24,11 @@
       <div class="header">
           <div class="container">
               <!-- <div class="estilo-boton-ingreso"> -->
-                <button type="button" class="estilo-boton-ingreso" >Ingresar</button>
-                
+                <button type="button" class="estilo-boton-ingreso" (click)="newChange()">Ingresar</button>
+                <!-- <button type="button" class="estilo-boton-ingreso" routerLink="/login" routerLinkActive="active">Ingresar</button> -->
+                <div class="col-sm-4">
+                  <router-outlet></router-outlet>
+                </div>
               <!-- </div> -->
               <div class="logo">
                   <span class="logo-inicial"></span>
@@ -467,6 +470,25 @@
                         <br><br><br>
                         <p>Feb 2022 - Trabajo en Bootstrap y php para env&iacute;o de mail</p>
                         <p>&Uacute;ltima modificaci&oacute;n realizada con inclusi&oacute;n de nuevo idioma</p>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm">
+                  <div class="ca-icon3">
+                    <div class="sear-ic">
+                      <ul class="circle">
+                        <li></li>
+                        <a href="#">
+                          <h6>RED EMPRENDER<span> </span>
+                            <fa-icon [icon]="['fas', 'link']"
+                              [styles]="{ stroke: 'lightpink', color: 'black' }"
+                              size="1x" ></fa-icon>
+                          </h6>
+                        </a>
+                        <br><br><br>
+                        <p>Jul 2022 - Trabajo en Bootstrap y laravel</p>
+                        <p>Se encuentra en manos del cliente para subir</p>
                       </ul>
                     </div>
                   </div>

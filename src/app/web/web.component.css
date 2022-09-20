@@ -394,6 +394,15 @@ h4.set{
 	border-radius: 20px;
 }
 
+.ca-icon3{
+	width:100%;
+	height: 200px;
+	display: block;
+	position: relative;
+	margin: 0 auto;
+	background: transparent url(/assets/images/RedE.png) no-repeat center center;
+	border-radius: 20px;
+}
 
 /*--footer--*/
 .footer{

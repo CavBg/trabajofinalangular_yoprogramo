@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-web',
@@ -7,6 +8,12 @@ import { Component } from '@angular/core';
   
 })
 export class WebComponent{
-  
+  constructor(private router: Router) {}
+
+    newChange(): void {
+        this.router.navigateByUrl('login');
+        
+    }
+    
   title = 'Web Argentina Programa';
 }

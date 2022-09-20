@@ -18,7 +18,7 @@ import { UsersComponent } from './users/users.component';
 import { HttpClientModule } from '@angular/common/http';
 import { WebComponent } from './web/web.component';
 import { routing } from './app.routing';
-
+import { CookieService } from 'ngx-cookie-service';
 
 @NgModule({
   declarations: [
@@ -54,7 +54,7 @@ import { routing } from './app.routing';
       unitsColor:'#D54B54',
     })
   ],
-  providers: [],
+  providers: [CookieService],
   bootstrap: [AppComponent]
 })
 export class AppModule {

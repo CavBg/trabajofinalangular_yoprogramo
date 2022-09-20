@@ -2,7 +2,7 @@
 
 <div class="login">
     <form class="custom-form" method="post">
-      <h1>Login</h1>
+      <h3>Login</h3>
       <input
         type="email"
         [(ngModel)]="email"
@@ -17,6 +17,10 @@
         placeholder="Contraseña"
         required="required"
       />
+      <div class="botones">
       <button type="submit" (click)="login()">Ingresar</button>
+      <button type="submit" (click)="goBack()">Cancelar</button>
+      
+    </div>
     </form>
   </div>
