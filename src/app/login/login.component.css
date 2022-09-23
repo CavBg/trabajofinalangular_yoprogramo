@@ -13,6 +13,9 @@
   }
   h3 {
     color: #d54b54;
+    text-align: end;
+    font-style: italic;
+    font-size: xx-large;
   }
   .custom-form {
     min-width: 400px;
@@ -22,7 +25,8 @@
     padding: 2rem 3rem;
     margin: 300px;
     border-radius: 2.5rem;
-    background-color: rgb(243, 212, 212);
+    /* background-color: rgb(243, 212, 212); */
+    background: url(/assets/images/d173c3cc685e4e1288bf93d9778dcf24.jpg);
     box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #ffffff;
     color: black;
     margin-top: 10rem;
@@ -46,12 +50,12 @@
     font-size: 0.875rem;
     color: #ffffff;
     font-weight: bold;
-    background-color: #bcd8c1;
+    background-color: #4965A3;
     width: 50%;
     display: block;
     padding: 0.875rem 1rem;
     border-radius: 1.5rem;
-    box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #ffffff;
+    box-shadow: 3px 3px 8px #4965A3, -3px -3px 8px #ffffff;
     cursor: pointer;
     margin-right: 50px;
   }

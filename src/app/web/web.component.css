@@ -12,7 +12,7 @@ body{
 }
 
 .header{
-	/* background:url(../images/bb.jpg) bottom; */
+	/* background:url(/assets/images/pink-blossom-bloom-spring-romantic-summer-close-up-delicate-flower-background.jpg) bottom; */
 	background-color: black;
 	width:100%;
 	min-height:300px;
@@ -72,7 +72,7 @@ span.logo-inicial{
    
 		width: 15%;
 		font-size: 1.2em;
-		background: #d44b53;
+		background: #4965A3;
 		padding: 0.8em 0;
 		color: #fff;
 		border-radius: 5px;
@@ -97,7 +97,7 @@ span.logo-inicial{
    
 }
 span.logo-inicial2{
-	background: url(/assets/images/cvimg.jpg) -21px -7px;
+	background: url(/assets/images/cav2.jpg) ;
 	float: left;
 	margin-top: 0.5em;
     width: 164px;
@@ -105,6 +105,7 @@ span.logo-inicial2{
 	display: block;
 	margin: 10px auto;
 	border-radius: 150px;
+	padding: 100px;
     
 }
 .logo-bottom{
